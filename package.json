@@ -5,7 +5,8 @@
     "keywords": [
         "keepAlive",
         "vue",
-        "vue-router"
+        "vue-router",
+        "memory-router"
     ],
     "main": "dist/vue-memory-router.umd.js",
     "module": "dist/vue-memory-router.esm.js",

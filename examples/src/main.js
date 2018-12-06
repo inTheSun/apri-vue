@@ -6,14 +6,14 @@ Vue.config.debug = true;
 import App from './App'
 import router from './router'
 import store from './store'
-// import MemoryRouter from '../../src'
-import MemoryRouter from '../../dist/vue-memory-router.esm'
+import MemoryRouter from '../../src'
+// import MemoryRouter from '../../dist/vue-memory-router.esm'
 
 Vue.config.productionTip = false;
 
 
 // you can use with vuex
-Vue.use(MemoryRouter, { router, store })
+Vue.use(MemoryRouter)
 // Vue.use(Navigation, {router})
 
 /* eslint-disable no-new */
